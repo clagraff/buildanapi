@@ -1,7 +1,7 @@
 ---
-title:   Getting Golang (1.12)
+title:   Using Golang (1.12)
 isChild: true
-anchor:  getting_golang
+anchor:  using_golang
 ---
 
 ## Use the Current Stable Version (1.12) {#use_the_current_stable_version_title}
@@ -33,5 +33,7 @@ learning material available to you. Below are some highlights, but feel free
 to look for more on your own.
 
 [A Tour of Go](https://tour.golang.org/welcome/1): An interactive tour of the language
+
 [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/): A comprehensive overview of Go syntax
+
 [Go by Example](https://gobyexample.com/): Hands-on introduction to Go
