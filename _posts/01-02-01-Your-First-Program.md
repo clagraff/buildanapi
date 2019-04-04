@@ -22,3 +22,34 @@ func main() {
 	fmt.Println("Hello, world!")
 }
 {% endhighlight %}
+
+Now, you can build (read: compile) your program for your system.
+
+{% highlight console %}
+> go build main.go
+> ls
+main.exe
+{% endhighlight %}
+
+(note that the specific binary built will depend on your operating system)
+
+Next, let's run our compiled binary!
+
+{% highlight console %}
+> ./main.exe
+Hello, world!
+{% endhighlight %}
+
+## Two-in-One {#two_in_one}
+
+Golang makes it easy to both build and run your application at once. Instead
+of doing the two steps manually, we can use the `go run [FILE]` command.
+
+Let's try it!
+
+{% highlight console %}
+> go run main.go
+Hello, world!
+{% endhighlight %}
+
+Excellent!
