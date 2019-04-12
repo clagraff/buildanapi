@@ -115,4 +115,10 @@ if err != nil {
 }
 {% endhighlight %}
 
-The [ListenAndServe]
+Finally, we have [ListenAndServe](https://golang.org/pkg/net/http/#ListenAndServe).
+This function will block our program from continuing, as it listens on the
+specified port. For each request is receives, it will call our registered
+handle `serveRequest`.
+
+Should an error occur, it will return it. We will panic in such cases. This is
+similar to throwing an exception in other languages.
