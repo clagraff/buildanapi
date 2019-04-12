@@ -4,7 +4,7 @@ isChild: true
 anchor:  your_first_program
 ---
 
-## Hello World! {#hello_world}
+## Your First Program {#your_first_program}
 
 Let's create, build, and run a simple program in Golang. You will need to have
 properly installed Golang in order to do all the steps.
