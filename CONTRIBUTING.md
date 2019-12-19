@@ -1,7 +1,4 @@
-# Contributing to PHP The Right Way
-
-Enjoy [PHP The Right Way](http://phptherightway.com) and want to get
-involved? Great! There are plenty of ways you can help out.
+# Contributing
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -11,16 +8,20 @@ the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
 patches and features.
 
+## Development Quickstart
+
+1. [Install Ruby](https://rvm.io/rvm/install/).
+2. [Install Jekyll](https://jekyllrb.com/docs/installation/).
+3. [Install Nodejs](https://nodejs.org/en/download/).
+4. Install the required Gems via: `bundle install`.
+5. Run Jekyll locally via: `bundle exec jekyll serve`.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/codeguy/php-the-right-way/issues) is
+The [issue tracker](https://github.com/clagraff/build-an-api-docs/issues) is
 the preferred channel for changes: spelling mistakes, wording changes, new
 content and generally [submitting pull requests](#pull-requests), but please
 respect the following restrictions:
-
-* Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](http://stackoverflow.com/questions/tagged/php) or IRC).
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
@@ -41,11 +42,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/php-the-right-way.git
+   git clone https://github.com/<your-username>/build-an-api-docs.git
    # Navigate to the newly cloned directory
-   cd php-the-right-way
+   cd build-an-api-docs
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/codeguy/php-the-right-way.git
+   git remote add upstream https://github.com/clagraff/build-an-api-docs.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

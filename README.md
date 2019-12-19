@@ -11,10 +11,11 @@ TODO
 
 ## How to Contribute
 
-You should read the `CONTRIBUTING.md` file for precise instructions and tips. But, if you prefer a TL;DR:
+To get started contributing, read the [CONTRIBUTING.md](CONTRIBUTING.MD) documentation.
+If you prefer a TL;DR:
 
 1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
+2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://jekyllrb.com/docs/installation/) gem to preview locally
 3. Submit pull request for consideration
 
 ### Contributor Style Guide
@@ -22,10 +23,6 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 1. Use American English spelling (*primary English repo only*)
 2. Use four (4) spaces to indent text; do not use tabs.
 3. Wrap all text to 120 characters.
-
-## Why
-
-TODO
 
 ## Who
 
